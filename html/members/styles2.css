@@ -1,7 +1,7 @@
-body { 
+ body { 
   font-family:Arial, Helvetica, sans-serif;
   background: rgb(255, 255, 255);
-  margin: auto;
+  margin: 5%;
   max-width: 1200px;
   min-width: 900px;
 }
@@ -10,14 +10,14 @@ h1 { text-align: center;
   margin-bottom: 20px;
 }
 
-.container > div {
+/* .container > div {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2em;
-}
+} */
 
-div > ul {
+/* div > ul {
   list-style: none;
   padding-left: 0;
   color: #cac51f;
@@ -27,28 +27,28 @@ div > ul {
   padding-inline-start: 5px;
   justify-content: left;
   align-items: flex-start;
-}
+} */
 
-img {
+/* img {
   max-width: 50%;
   height: auto;
   width: auto\9; /* ie8 */
-  display: block;
+  /* display: block;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-.footer > p {
+/* .footer > p {
   font-size: .7em;
 }
 
 figcaption {
   text-align: center;
-}
+} */
 
 
 /* Styling the Navigation menu items */
-a {
+/* a {
   color: #02C8A7;
   text-decoration: none;
   text-transform: uppercase;
@@ -65,11 +65,11 @@ a:hover {
 th,
 h5 {
   margin: 0;
-}
+} */
 
 
 /* CSS Grid settings and Div styling */
-.container {
+/* .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 170px 50px 40px 500px 50px;
@@ -110,21 +110,18 @@ h5 {
 .footer {
   background: #d8d107;
   grid-column: 1 / -1;
-}
+} */
 
 /* Table in Members Order page formating */
-/* .imageContent,
-.imageSlices,
-.imageSlices td,
-td,
-tr,
-img {
-  margin: 0;
-  border: 0;
-  border-spacing: 0;
-  padding: 0;
-  
-}
+/* , */
+/* .imageSlices,
+.imageSlices td, */
+
+
+
+/* .imageContent{
+  width: 100px;
+} */
 
 table {
   padding: 0;
@@ -132,4 +129,23 @@ table {
   border: 0;
   border-collapse: collapse;
   border-spacing: 0;
-} */
+  width: 50%;
+ }
+
+td
+{
+  max-width: 330px;
+  max-height: auto;
+  margin: 0px;
+  border-width: 0px;
+  padding: 0px;
+
+}
+
+img { 
+  display: block;
+  margin: 0px;
+  border-width: 0px;
+  padding: 0px;
+
+}

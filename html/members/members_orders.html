@@ -20,15 +20,39 @@
 		</header>
 		
 		<div class="imageContent">
-			<table id="imageSlices">
+			<table id="imageSlices" cellspacing="0" cellpadding="0">
 			</table>
 		</div>
 		
 		<div class="formContent">
+			<h3>
+				Order Item - Red Bowl of Doom
+			</h3>
+			<form id="form" action="#" method="post">
+				<label for="itemDescription">Item Description</label>
+				<input type="text" name="itemDescription" id="iDesc" value="An elegant red bowl used for decorative purposes" size="40">
+				<br>
+				<label for="quantity">Quantity</label>
+				<input type="text" name="quantity" value="1" id="quantity">
+				<br>
+				<label for="price">Price $</label>
+				<input type="text" name="price" id="price" value="135" size="3" maxlength="5">
+				<br>
+				<label for="totalPrice">Total Price</label>
+				<input type="text" name="totalPrice" id="totalPrice">
+				<br>
+				<button>Clear</button>
+				<button>Calculate Total</button>
+				<button type="submit" value="submit" id="submit">Submit</button>
+				
+			</form>
+
+
 		</div>
 
 		<footer class="footer">
-			<p> &copy; Copyright | About Us | Legal Info </p>
+			<p id="footer"> &copy; Copyright | About Us | Legal Info </p>
+			<button id="closePage">Close Page</button>
 		</footer>
 	
 	</div>

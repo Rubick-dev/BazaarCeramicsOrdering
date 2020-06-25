@@ -1,4 +1,3 @@
-
 /* Function that executes on page load - it uses template literals rather than 
 traditional quotations to concatenate the table and image strings required */
 function InsertImageSlices() {
@@ -20,5 +19,6 @@ function InsertImageSlices() {
     dispImg += "</tr>" /* Final concatenation*/
   document.getElementById('imageSlices').innerHTML = dispImg; /* Inserts the HTML code */
   }
+  return;
 }
 

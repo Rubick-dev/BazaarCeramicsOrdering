@@ -9,6 +9,7 @@
 	<meta name="author" content="Heath Burton">
 	<title>Bazaar Ceramics – Member Order</title>
 	<script type="text/javascript" src="../../Scripts/imageCreator.js"></script>
+	<script type="text/javascript" src="../../Scripts/formScripts.js"></script>
 	<link rel="stylesheet" type="text/css" href="styles2.css">
 </head>
 
@@ -25,10 +26,10 @@
 		</div>
 		
 		<div class="formContent">
-			<h3>
-				Order Item - Red Bowl of Doom
-			</h3>
-			<form id="form" action="#" method="post">
+			
+			<h3>Order Item - Red Bowl of Doom</h3>
+
+			<form id="form" action="#" method="#">
 				<label for="itemDescription">Item Description</label>
 				<input type="text" name="itemDescription" id="iDesc" value="An elegant red bowl used for decorative purposes" size="40">
 				<br>
@@ -41,18 +42,16 @@
 				<label for="totalPrice">Total Price</label>
 				<input type="text" name="totalPrice" id="totalPrice">
 				<br>
-				<button>Clear</button>
-				<button>Calculate Total</button>
-				<button type="submit" value="submit" id="submit">Submit</button>
-				
+				<button onclick="clearValues(); return false">Clear</button>
+				<button id="calcTotal" onclick="sum(); return false">Calculate Total</button>
+				<button type="submit" value="submit" id="submit" onclick="submitForm(); return false">Submit</button>
 			</form>
-
 
 		</div>
 
 		<footer class="footer">
 			<p id="footer"> &copy; Copyright | About Us | Legal Info </p>
-			<button id="closePage">Close Page</button>
+			<button id="closePage" onclick="window.close()">Close Page</button>
 		</footer>
 	
 	</div>

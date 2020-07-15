@@ -65,11 +65,89 @@ td img {
 
 
 /* ## Form Content Formatting ### */
+
+h3 {
+  color: rgb(194, 62, 62);
+  text-align: center;
+}
+
+.wrapper {
+  list-style-type: none;
+  padding: 0;
+  border-radius: 3px;
+}
+.form-row {
+  display: flex;
+  justify-content: flex-end;
+  padding: .5em;
+}
+
+.form-row > label {
+  padding: .5em 1em .5em 0;
+  flex: 1;
+}
+
+.form-row > input {
+  flex: 2;
+}
+
+.form-row > input,
+.form-row > button {
+  padding: .5em;
+}
+
+.form-row > button {
+ border: 0;
+}
+
 .formContent {
   background: #7CDBD5;
   min-width: 500px;
   max-width: 500px;
   margin: 0 auto;
+  padding: 1px;
+}
+
+.formDetailsContent {
+  margin: 10px;
+}
+
+.buttonDiv {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  text-align: justify;
+  line-height: 0;
+  padding: 10px 0;
+}
+
+.buttonDiv button {
+  margin: 10px 15px;
+}
+
+.buttonDiv:after {
+  content: '';
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  line-height: 1.5;
+}
+
+.butn {
+  width: 25%;
+  height: 35px;
+}
+
+#clrButn {
+  background-color: rgb(228, 211, 59);
+}
+
+#calcTotal {
+  background-color: rgb(60, 63, 196);
+}
+
+#submitButton {
+  background-color: rgb(66, 224, 74);
 }
 
 
@@ -87,5 +165,10 @@ td img {
   font-size: .7em;
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 10%;
   display: inline;  
+}
+
+#closePage {
+  background-color: rgb(206, 56, 36);
 }

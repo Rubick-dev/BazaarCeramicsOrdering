@@ -29,7 +29,7 @@
 			
 			<h3>Order Item - Red Bowl of Doom</h3>
 
-			<form id="form" action="#" method="#">
+			<form id="form" action="#" method="get" onsubmit="submitForm(); return false;">
 				<label for="itemDescription">Item Description</label>
 				<input type="text" name="itemDescription" id="iDesc" value="An elegant red bowl used for decorative purposes" size="40">
 				<br>
@@ -44,7 +44,7 @@
 				<br>
 				<button onclick="clearValues(); return false">Clear</button>
 				<button id="calcTotal" onclick="sum(); return false">Calculate Total</button>
-				<button type="submit" value="submit" id="submit" onclick="submitForm(); return false">Submit</button>
+				<button type="submit" value="submit" id="submitButton" name="submitButton">Submit</button>
 			</form>
 
 		</div>
